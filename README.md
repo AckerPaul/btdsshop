@@ -14,9 +14,13 @@ wget --no-check-certificate -O /tmp/cloud_deployment.sh http://download.hanbot.m
 chmod +x /tmp/cloud_deployment.sh
 bash /tmp/cloud_deployment.sh
 ```
+2个都是一样的/只是分流或者国内机器访问GitHub慢/脚本已做了自动识别是否大陆机器/来分开下载应用压缩包
+
+有什么好玩的项目推给我/我有空加入一键部署
+
 --------------------------------------------------------------------
 ### Mirroring
-全程只需输入一个域名就即可,没有域名的话/在安装提示输入APP_URL:的时候直接回车即可
+全程只需输入一个域名就即可/不用登陆宝塔,没有域名的话/在安装提示输入APP_URL:的时候直接回车即可
 
 | Notification (cloud deployment) | Priority |
 | ------------- | ------|
