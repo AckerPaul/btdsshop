@@ -26,7 +26,7 @@ bash /tmp/cloud_deployment.sh
 | ------------- | ------|
 | 自动安装宝塔/跳过必须登陆/跳过授权确认/关闭客服/关闭活动推荐. ☘️  | HIGH :heavy_check_mark: |
 | 自动安装nginx/php/mysql/redis/fileinfo. | HIGH :heavy_check_mark: |
-| 自动根据输入的APP_URL创建网站数据库/直接回车使用IP为域名. 🥇 | HIGH :heavy_check_mark: |
+| 自动根据输入的APP_URL创建网站数据库/直接回车使用IP为域名. 🥇 <br /> - 如果网站和数据都不存在才会创建 <br /> - 如果你创建的数据库不是创建网站的时候生成的,会提示你输入数据库名和密码 | HIGH :heavy_check_mark: |
 | 自动开启 laravel php 需要的函数/伪静态/设置public运行目录! | NORMAL :heavy_check_mark: |
 | 手动选择是否安装admin静态端/就是编译好打包的/然后替换了接口为你的域名(y/n)! <br /> - 后台账号:admin <br /> - 后台密码:AckerPaul | NORMAL :heavy_check_mark: |
 | 手动选择是否重新编译admin端/不懂的请选n (y/n)! | LOW :heavy_check_mark: |
