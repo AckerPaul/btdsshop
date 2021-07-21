@@ -19,7 +19,7 @@ bash /tmp/cloud_deployment.sh
 有什么好玩的项目推给我/我有空加入一键部署
 
 --------------------------------------------------------------------
-### Mirroring
+### Notification
 全程只需输入一个域名就即可/不用登陆宝塔,没有域名的话/在安装提示输入APP_URL:的时候直接回车即可
 
 | Notification (cloud deployment) | Priority |
