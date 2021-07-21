@@ -45,6 +45,7 @@ bash /tmp/cloud_deployment.sh
 
 ## Installation screenshot
 安装截图
+
 <img src="./images/intall1.gif" />
 <img src="./images/install2.gif" />
 <img src="./images/20214522024546.png" />
