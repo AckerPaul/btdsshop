@@ -136,7 +136,7 @@ sed -i 's/.*disable_functions\ \=\ .*/disable_functions\ \=\ chroot,chgrp,chown,
 
 read -ep "APP_URL: (Enter represents the IP as the domain name)" apiurl
 
-ipapiurl=$(echo -n "${apiurl}" | grep -Eo "[0-9.]+")
+ipapiurl=$(echo -n "${apiurl}" | grep -Eo "[0-9]+.[0-9]+.[0-9]+.[0-9]+")
 
 if [ -z "$apiurl" ] || [ "$ipapiurl" != "" ];then
 	wget -qO /tmp/get_geo2ip.json http://www.bt.cn/api/panel/get_geo2ip -T 10
