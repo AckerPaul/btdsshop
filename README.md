@@ -2,6 +2,7 @@
 ![nginx 1.20.1](https://img.shields.io/badge/nginx-1.20.1-brightgreen.svg)
 ![php 7.4.21](https://img.shields.io/badge/php-7.4.21-brightgreen.svg)
 ![mysql 5.7.34](https://img.shields.io/badge/mysql-5.7.34-brightgreen.svg)
+![centos >7.6](http://download.hanbot.me/dshop/centos76.svg)
 ## Cloud deployment for dsshop
 ```
 wget --no-check-certificate -O /tmp/cloud_deployment.sh https://git.io/JlTT2
